@@ -22,6 +22,26 @@ void ExecuteMenu(char option, ShoppingCart& theCart) {
 
 int main() {
    /* Type your code here */
+   string customerName;
+   string currentDate;
+   char option;
+
+   cout << "Enter customer's name:" << endl;
+   getline(cin, customerName);
+   cout << "Enter today's date:" << endl;
+   getline(cin, currentDate);
+
+   cout << "Customer name: " << customerName;
+   cout << "Today's date: " << customerData;
+
+   ShoppintCart theCart(customerName, currentDate);
+   
+   while(option != 'q'){
+      PrintMenue();
+      cout << "Choose and option:" << endl;
+      cin >> option;
+      ExecuteMenu(option, theCart);
+   }
    
    return 0;
 }
