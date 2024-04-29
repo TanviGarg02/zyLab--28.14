@@ -37,7 +37,7 @@ int main() {
    ShoppintCart theCart(customerName, currentDate);
    
    while(option != 'q'){
-      PrintMenue();
+      PrintMenu();
       cout << "Choose and option:" << endl;
       cin >> option;
       ExecuteMenu(option, theCart);
