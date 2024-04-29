@@ -16,7 +16,6 @@ void PrintMenu() {
 
 void ExecuteMenu(char option, ShoppingCart& theCart) {
    /* Type your code here */
-   char*const
    
    
 }
